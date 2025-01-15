@@ -5,16 +5,16 @@ Tushar's Tomato is a online food ordering application, we made a clone (Tushar's
 
 ## Pages Developed:
 
-1. [Home Page]
-2. [Add a Restaurant Page]
-3. [User Profile Page]
+1. Home Page
+2. Add a Restaurant Page
+3. User Profile Page
 4. Restaurant Home Page
-5. [Restaurant Order Page]
+5. Restaurant Order Page
 6. Restaurant Review Page
 7. Restaurant Photos Page
 8. Restaurant Menu Page
 9. Get The App Page
-10. [Order Page]
+10. Order Page
 11. Dinning Page
 12. Nightlife Page
 
