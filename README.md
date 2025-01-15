@@ -1,7 +1,7 @@
 # Tushar's Tomato (Tushar's Tomato clone)
 
 
-Tushar's Tomato is a online food ordering application, we made a clone (Tushar's Tomato) of it using React Js, Tushar's Tomato Frontend clone using React Js.
+Zomato is a online food ordering application, we made a clone (Tushar's Tomato) of it using React Js, Tushar's Tomato Frontend clone using React Js.
 
 ## Pages Developed:
 
