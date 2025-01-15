@@ -3,7 +3,7 @@ import Slider from "react-slick";
 
 import css from './test.module.css'
 
-import "../../../node_modules/slick-carousel/slick/slick.css"; 
+import "../../../node_modules/slick-carousel/slick/slick.css";
 import "../../../node_modules/slick-carousel/slick/slick-theme.css";
 
 import {Formik, Form} from 'formik'
@@ -46,7 +46,7 @@ const TestPage = () => {
   };
     const data = {
         phone: "9988098812",
-        address: "50000, kukatpally, Hyderabad, Telangane, India",
+        address: "50000, kukatpally, Hyderaba, Telangane, India",
         lat: 11.11,
         lng: 18.31
     }

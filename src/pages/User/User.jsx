@@ -8,11 +8,11 @@ import LeftSideCardPanel from '../../utils/Cards/LeftSideCardPanel/LeftSideCardP
 import SuggestedFollowCard from '../../utils/UserProfileUtils/SuggestedFollowCard/SuggestedFollowCard'
 import ProfileWidget from '../../utils/UserProfileUtils/ProfileWidget/ProfileWidget'
 
-import userImg from '/images/koushil.jpg';
+import userImg from '/images/tushar.jpg';
 
 const User = () => {
 
-    let data1 = [ 
+    let data1 = [
         {title: "Reviews", hash: "reviews"},
         {title: "Photos", hash: "photos"},
         {title: "Followers", hash: "followers"},
@@ -20,25 +20,25 @@ const User = () => {
         {title: "Bookmarks", hash: "bookmarks"},
         {title: "Blog Posts", hash: "blog-posts"}
     ];
-    let data2 = [ 
+    let data2 = [
         {title: "Order History", hash: "order-history"},
         {title: "My Address", hash: "my-address"},
         {title: "Favorite Orders", hash: "favorite-orders"},
     ];
-    let data5 = [ 
+    let data5 = [
         {title: "Yours Booking", hash: "bookings"},
     ];
 
     let data3 = [
-        {userId: 123, imgSrc:userImg, userName: "Koushil Mankali", reviews: 200, followers: "123"},
-        {userId: 123, imgSrc:userImg, userName: "Koushil Mankali", reviews: 200, followers: "123"},
-        {userId: 123, imgSrc:userImg, userName: "Koushil Mankali", reviews: 200, followers: "123"},
-        {userId: 123, imgSrc:userImg, userName: "Koushil Mankali", reviews: 200, followers: "123"}
+        {userId: 123, imgSrc:userImg, userName: "Tushar Upase", reviews: 200, followers: "123"},
+        {userId: 123, imgSrc:userImg, userName: "Tushar Upase", reviews: 200, followers: "123"},
+        {userId: 123, imgSrc:userImg, userName: "Tushar Upase", reviews: 200, followers: "123"},
+        {userId: 123, imgSrc:userImg, userName: "Tushar Upase", reviews: 200, followers: "123"}
     ]
 
     let data4 = {
       profilePic: userImg,
-      userName: "Koushil",
+      userName: "Tushar",
       reviews: 1,
       photos: 1,
       followers: 200
@@ -56,7 +56,7 @@ const User = () => {
           <LeftSideCardPanel name='ONLINE ORDERING' data={data2} />
           <LeftSideCardPanel name='TABLE BOOKING' data={data5} />
           <SuggestedFollowCard name='SUGGESTED FOODIES TO FOLLOW' data={data3} />
-          <ProfileWidget name='ZOMATO PROFILE WIDGET' tag="Showcase your Zomato profile on your blog." data={data4} />
+          <ProfileWidget name='TOMATO PROFILE WIDGET' tag="Showcase your Tushar's Tomato profile on your blog." data={data4} />
         </div>
         <div className={css.rightBox}>
           <UserProfileRightsideBar />

@@ -11,8 +11,8 @@ import cameraIcon from '/icons/photo-camera.png';
 import bgImg from '/images/profilebanner.jpg'
 import profilePic from '/images/profilepic.jpg'
 
-import RedBtnHov from '../../utils/Buttons/RedBtnHov/RedBtnHov' 
-import WhiteBtnHov from '../../utils/Buttons/WhiteBtnHov/WhiteBtnHov' 
+import RedBtnHov from '../../utils/Buttons/RedBtnHov/RedBtnHov'
+import WhiteBtnHov from '../../utils/Buttons/WhiteBtnHov/WhiteBtnHov'
 import TextUtil from '../../utils/FormUtils/TextUtil/TextUtil'
 import TextUtilWithCancel from '../../utils/FormUtils/TextUtilWithCancel/TextUtilWithCancel'
 import EnterOTP from '../../components/Auth/EnterOTP/EnterOTP'
@@ -21,7 +21,7 @@ const EditProfileModal = ({setModal}) => {
 
     let [dropdown, setDropDown] = useState(false);
     let [changeMailModal, setChangeMailModal] = useState(false);
-    let [initialValues, setInitialValues] = useState({ 
+    let [initialValues, setInitialValues] = useState({
         fullName: '',
         phone: '',
         email: '',
@@ -98,7 +98,7 @@ const EditProfileModal = ({setModal}) => {
                     return <Form className={css.form}>
                         <TextUtil name="fullName" placeholder="Enter name"/>
                         <TextUtil name="phone" placeholder="Enter phone number" disabled/>
-                        <span className={css.formTxt}>You can update your phone number using the Zomato app</span>
+                        <span className={css.formTxt}>You can update your phone number using the Tushar's Tomato app</span>
                         <TextUtilWithCancel txt="Change" name="email" placeholder="sample@sample.com" formik="" changeHandler={mailCahngeHandler} disabled/>
                         <TextUtil name="address" placeholder="Enter address"/>
                         <TextUtil name="description" placeholder="Description"/>

@@ -20,7 +20,7 @@ const UserBlogPosts = ({ hashId }) => {
     {
       id: 2,
       imgSrc: happyHoursImg,
-      name: "Koushil Mankali",
+      name: "Tushar Upase",
       time: new Intl.DateTimeFormat().format(new Date())?.toString(),
       link: "#"
     }
